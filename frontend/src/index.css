@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.bg-da-primary {
+    background-color: #005699; /* Primary Dark Blue/Teal */
+}
+
+.text-da-accent {
+    color: #3DB049; /* Accent Green */
+}
+
+.bg-da-primaryb {
+    background-color: #004080; /* Darker Primary Blue */
+}
+.border-da-accent {
+    border-color: #3DB049; /* Accent Green */
+}
+
+
+
+
+
+
+
+
+
