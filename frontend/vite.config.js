@@ -5,4 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
+  preview: {
+    allowedHosts: ['website-vuo9.onrender.com'],
+    host: true,          // or '0.0.0.0'
+    port: 4173           // will be overridden by CLI --port $PORT
+  }
 })
